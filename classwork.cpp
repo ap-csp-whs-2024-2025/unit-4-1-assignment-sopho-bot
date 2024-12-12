@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
@@ -12,5 +13,44 @@ int main()
   int grade_level = 11;
   std::cout << "I am an " << grade_level << "th grader." <<
   std::endl;
-  return 0;
+
+  {int num = 5
+  num = 10 
+  
+  std::string stu_name = "John"
+  std::string number = "5";
+  
+  std::cout << "My name is" << stu_name << std::endl;
+
+  
+ { 
+  double x = 0.1;
+  double y = 0.2;
+  double sum = x+y;
+  
+  std::cout << sum << std::endl;
+  std::cout << (sum == 0.3) << std::endl;
+ 
+
+ {
+ int x = 25;
+ int y = 3;
+
+ std::cout << "Exercise #1:" << std::endl;
+ std::cout << "x + y = " << x + y << std::endl;
+ std::cout << "x - y = " << x - y << std::endl;
+ std::cout << "x * y = " << x * y << std::endl;
+ std::cout << "x / y = " << x / y << std::endl;
+ std::cout << "x % y = " << x % y << std::endl;
+
+ int z = 10;
+ std::cout << "x > z:" << 
+
+}
+
+
+
+
+   return 0;
+ }
 }
