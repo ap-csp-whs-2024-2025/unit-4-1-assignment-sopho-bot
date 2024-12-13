@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 #include <string>
 
 int main()
@@ -14,16 +14,16 @@ int main()
   std::cout << "I am an " << grade_level << "th grader." <<
   std::endl;
 
-  {int num = 5
-  num = 10 
+  int num = 5;
+  num = 10;
   
-  std::string stu_name = "John"
+  std::string stu_name = "John";
   std::string number = "5";
   
   std::cout << "My name is" << stu_name << std::endl;
-
   
- { 
+  
+ 
   double x = 0.1;
   double y = 0.2;
   double sum = x+y;
@@ -32,25 +32,24 @@ int main()
   std::cout << (sum == 0.3) << std::endl;
  
 
- {
- int x = 25;
- int y = 3;
+ 
+  int a = 25;
+  int b = 3;
 
- std::cout << "Exercise #1:" << std::endl;
- std::cout << "x + y = " << x + y << std::endl;
- std::cout << "x - y = " << x - y << std::endl;
- std::cout << "x * y = " << x * y << std::endl;
- std::cout << "x / y = " << x / y << std::endl;
- std::cout << "x % y = " << x % y << std::endl;
+  std::cout << "Exercise #1:" << std::endl;
+  std::cout << "a + b = " << a + b << std::endl;
+  std::cout << "a - b = " << a - b << std::endl;
+  std::cout << "a * b = " << a * b << std::endl;
+  std::cout << "a / b = " << a / b << std::endl;
+  std::cout << "a % b = " << a % b << std::endl;
 
- int z = 10;
- std::cout << "x > z:" << 
-
-}
+  int z = 10;
+  std::cout << "a > b:";
 
 
 
 
-   return 0;
- }
+
+
+  return 0;
 }
